@@ -21,19 +21,19 @@ public class Task04 {
 
 		Tasks tsk = new Tasks(arr);
 
-		System.out.println("Задание 1 ------------------");
+		System.out.println("Р—Р°РґР°РЅРёРµ 1 ------------------");
 		tsk.task01(arr);
-		System.out.println("Задание 2 ------------------");
+		System.out.println("Р—Р°РґР°РЅРёРµ 2 ------------------");
 		tsk.task02(arr);
-		System.out.println("Задание 3 ------------------");
+		System.out.println("Р—Р°РґР°РЅРёРµ 3 ------------------");
 		tsk.task03(arr);
-		System.out.println("Задание 4 ------------------");
+		System.out.println("Р—Р°РґР°РЅРёРµ 4 ------------------");
 		tsk.task04(arr);
-		System.out.println("Задание 5 ------------------");
+		System.out.println("Р—Р°РґР°РЅРёРµ 5 ------------------");
 		task05(arr2);
-		System.out.println("Задание 6 ------------------");
+		System.out.println("Р—Р°РґР°РЅРёРµ 6 ------------------");
 		tsk.task06(arr);
-		System.out.println("Задание 7 ------------------");
+		System.out.println("Р—Р°РґР°РЅРёРµ 7 ------------------");
 		
 		String s1 = "1238";
 		String s2 = "1239";

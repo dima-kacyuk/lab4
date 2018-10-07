@@ -33,13 +33,13 @@ public class Tasks {
 			}
 		}
 
-		System.out.println("Максимальный и минимальный элементы: " + max + " , " + min);
-		System.out.println("Их индексы: " + maxIndex + " , " + minIndex);
+		System.out.println("РњР°РєРёРјР°Р»СЊРЅС‹Р№ Рё РјРёРЅРёРјР°Р»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚С‹: " + max + " , " + min);
+		System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ Рё РјРёРЅРёРјР°Р»СЊРЅС‹Р№ РёРЅРґРµРєСЃ СЌР»РµРјРµРЅС‚РѕРІ: " + maxIndex + " , " + minIndex);
 
 		arr[minIndex] = max;
 		arr[maxIndex] = min;
 
-		System.out.println("Новый массив: ");
+		System.out.println("РќРѕРІС‹Р№ РјР°СЃСЃРёРІ: ");
 
 		showArr(arr);
 	}
@@ -70,7 +70,7 @@ public class Tasks {
 			temp+=arr[i];
 		}
 		
-		System.out.println("Среднее значение массива = " + (double)temp/arr.length);
+		System.out.println("РЎСЂРµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ = " + (double)temp/arr.length);
 	}
 
 	public void task04(int[] arr2) {
@@ -88,8 +88,8 @@ public class Tasks {
 			}
 		}
 		
-		System.out.println("Сумма четных элементов: " + sumOfEven);
-		System.out.println("Сумма нечетных элементов: " + sumOfUneven);
+		System.out.println("РЎСѓРјРјР° С‡РµС‚РЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ: " + sumOfEven);
+		System.out.println("РЎСѓРјРјР° РЅРµС‡РµС‚РЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ: " + sumOfUneven);
 	}
 
 	public void task06(int[] arr) {
@@ -101,7 +101,7 @@ public class Tasks {
 				max = arr[i];
 			}
 		}
-		System.out.println("Масимальный элемент = " + max);
+		System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚ = " + max);
 	}
 	
 	
